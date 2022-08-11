@@ -3,14 +3,14 @@ package com.tm9704.kotlinoop
 import java.lang.IllegalArgumentException
 
 fun main(){
-    var myCar = Car()
+    var myCar = Car2()
     println("brand is: ${myCar.myBrand}")
     myCar.maxSpeed = 240
     println("Maxspeed is ${myCar.maxSpeed}")
     println("Model is ${myCar.myModel}")
 }
 
-class Car(){
+class Car2(){
     lateinit var owner: String
 
     val myBrand: String = "BMW"
